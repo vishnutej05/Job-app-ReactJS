@@ -1,20 +1,22 @@
 <h1 style="
   color: #5b14c7; 
   font-weight: 1000;
-">Jobby App</h1>
+">Ecommerece App</h1>
 
-In this project, I have developed the **Jobby App**, an application that offers a user-friendly platform for job seekers. Users can log in and access a comprehensive list of job opportunities with various features, including search functionality by job title and filtering options based on salary range and employment type.
+In this project, I have developed the Ecommerce ReactJS application, a modern e-commerce platform built with React. This app provides a user-friendly experience for browsing and managing products. Users can explore a catalog of items, view detailed product information, and add products to their cart.
 
-### Link: https://getplaced.ccbp.tech/login
+### Link: https://trendzecomm.ccbp.tech/login
 
 The key components and functionalities of this project include:
 
-- **User Interface**: I created distinct pages for Login, Home, Jobs, and Job Item Details using React components. These components leverage React's capabilities for handling props, state management, event handling, and form inputs.
-- **Authentication**: Users can log in by providing their username and password. The application then performs an HTTP API call for login authentication. Upon successful login, a JSON Web Token (JWT) is generated and stored in the client's storage. This token is subsequently included in the headers of API requests to authorize the user.
-- **Routing**: To ensure a seamless user experience, I implemented routing using React Router components such as Route, Switch, and Link. This enables users to navigate between the Login, Home, Jobs, and Job Item Details pages with ease.
-- **Filtering and Search**: Users can refine their job searches by applying filters for salary range and employment type. These filter criteria are sent as query parameters in API calls to retrieve specific job listings.
-- **Security**: I established security measures by implementing protected routes. If a user attempts to access Home, Jobs, or Job Item Details routes without proper authentication, they are automatically redirected to the Login page.
+- **Product Listing**: Users can view a list of available products with detailed information for each item. This feature is implemented using React components that handle the display and interaction with product data.
+- **Product Details**: Clicking on a product takes users to a detailed view where they can see more information, such as price, description, and similar products.
+- **Cart Management**: Users can add products to their cart, adjust quantities, and view the cart's contents. This functionality is supported by React Context for state management, allowing for a seamless cart experience.
+- **Notifications**: A notification system provides feedback to users when they add items to the cart. The notification fades out after a few seconds and reappears with each new action.
+- **Routing**: Implemented using React Router, enabling smooth navigation between different pages such as product details and the home page.
 
-**Technologies used**: React JS, JS, CSS, Routing, REST API Calls, Local Storage, Cookies, JWT Token, Authorization, Authentication
+**Technologies used**: React JS, React Router, CSS, REST API Calls, React Context, State Management, Notifications
 
-In summary, the Jobby App is a comprehensive job-search platform that leverages React's capabilities for creating a dynamic and secure user experience. It offers features like user authentication, job filtering, and seamless navigation while providing essential job details to help users find their ideal employment opportunities.
+In summary, the Ecommerce ReactJS application is a comprehensive solution for managing an online shopping experience. It combines React's powerful features with intuitive UI components to offer users a dynamic, interactive, and secure platform for browsing and purchasing products.
+
+
